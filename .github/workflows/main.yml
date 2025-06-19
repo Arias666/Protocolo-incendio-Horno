@@ -1,0 +1,170 @@
+<table border="1">
+  <tr>
+    <th>Paso</th>
+    <th>Acción</th>
+    <th>Responsable</th>
+    <th>Equipo Requerido</th>
+    <th>Criterios Clave/Notas</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Evaluación inicial: Distinguir humo sin llama vs fuego activo. Medir temperatura superficial (máx. 80°C)</td>
+    <td>Jefe de brigada</td>
+    <td>Termómetro infrarrojo + detector térmico</td>
+    <td>Umbral térmico crítico: 80°C</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Solo HUMO: Abrir puerta 10-15cm. Rociar agua con boquilla en abanico. Notificar a Prevención y J. Producción</td>
+    <td>Operario capacitado</td>
+    <td>Manguera con boquilla regulable</td>
+    <td>Técnica de rociado: abanico. Distancia mínima: 1m</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>LLAMA visible: Activar código rojo por radio. Confirmar recepción SEE</td>
+    <td>Supervisor</td>
+    <td>Radio VHF con protocolo codificado</td>
+    <td>Código: "DRAGÓN 1". Verificar confirmación auditiva</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Parada total: Accionar 2 botones E-stop (formadora + clasificación)</td>
+    <td>Supervisor</td>
+    <td>--</td>
+    <td>Redundancia obligatoria. Verificar luces de confirmación</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Corte de gas: Cerrar secuencialmente Quemador 4 → 1. Verificar presión=0</td>
+    <td>Mantenimiento</td>
+    <td>Llave ajustable + manómetro</td>
+    <td>Secuencia: 4-3-2-1. Verificar manómetro en "0"</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Sistema ventilación: Cambiar a automático. Confirmar parada en panel</td>
+    <td>ETA</td>
+    <td>Panel de control con LED</td>
+    <td>Indicador LED verde = parada confirmada</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Supresión activa: 1) Activar rociadores 2) Esperar 30 segundos 3) Usar extintores solo si fuego visible en rendijas y distancia ≥2m</td>
+    <td>Brigada certificada</td>
+    <td>Extintores Clase K (2 unidades mínimo)</td>
+    <td>Prohibido acercarse <2m. Secuencia temporal: 30s espera</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Escalado: Nivel 1: Rociadores | Nivel 2: Extintores externos (PON-02-01) | Nivel 3: Evacuación</td>
+    <td>Jefe de emergencia</td>
+    <td>Tablero de decisión escalonada</td>
+    <td>Criterio nivel 2: Fuego no reduce en 60s</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Incendio declarado: Triple pulsación alarma. Evacuación ruta [A]. SEE asume comando</td>
+    <td>COE</td>
+    <td>Mapa de evacuación visible</td>
+    <td>Protocolo sonoro: 3 pulsos largos. Punto encuentro: Zona B</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Post-evento: Bloquear horno. Análisis causa-raíz en 24h. Reporte fotográfico con escala</td>
+    <td>Jefe de turno + Calidad</td>
+    <td>Kit preservación escena + cámara métrica</td>
+    <td>Candado seguridad. Fotos con regla escala. Informe en 24h</td>
+  </tr>
+</table>
+
+<h3>Matriz de Decisión</h3>
+<table border="1">
+  <tr>
+    <th>Elemento</th>
+    <th>Condición Humo sin llama</th>
+    <th>Condición Llama visible</th>
+    <th>Post-supresión</th>
+    <th>Equipamiento Asociado</th>
+  </tr>
+  <tr>
+    <td>Abrir puerta</td>
+    <td>✅ Parcial (10-15cm)</td>
+    <td>❌ Prohibido</td>
+    <td>✅ Solo T<50°C</td>
+    <td>Ganchos apertura segura</td>
+  </tr>
+  <tr>
+    <td>Técnica extinción</td>
+    <td>Rociado en abanico</td>
+    <td>--</td>
+    <td>Ventilación</td>
+    <td>Manguera boquilla regulable</td>
+  </tr>
+  <tr>
+    <td>Protección personal</td>
+    <td>Careta facial</td>
+    <td>Traje completo</td>
+    <td>Traje completo</td>
+    <td>Mantas ignífugas</td>
+  </tr>
+</table>
+
+<h3>Checklist Post-Incidente</h3>
+<table border="1">
+  <tr>
+    <th>Item de Verificación</th>
+    <th>Método</th>
+    <th>OK/NO</th>
+    <th>Observaciones</th>
+  </tr>
+  <tr>
+    <td>Bloqueo energías</td>
+    <td>Candado en tablero principal</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Presión rociadores</td>
+    <td>Manómetro en zona verde</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sellado horno</td>
+    <td>Cinta seguridad intacta</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Huella térmica</td>
+    <td>Termografía comparativa</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<h3>Contactos Críticos</h3>
+<table border="1">
+  <tr>
+    <th>Rol</th>
+    <th>Código Radio</th>
+    <th>Teléfono</th>
+    <th>Turno</th>
+    <th>Backup</th>
+  </tr>
+  <tr>
+    <td>Jefe Brigada</td>
+    <td>BRAVO-1</td>
+    <td>[●]</td>
+    <td>24/7</td>
+    <td>BRAVO-2</td>
+  </tr>
+  <tr>
+    <td>SEE (Bomberos)</td>
+    <td>--</td>
+    <td>[Teléfono local]</td>
+    <td>24/7</td>
+    <td>--</td>
+  </tr>
+</table>
